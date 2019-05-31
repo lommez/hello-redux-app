@@ -1,0 +1,3 @@
+const CLICK_UPDATE_VALUE = 'CLICK_UPDATE_VALUE';
+
+export default CLICK_UPDATE_VALUE;
