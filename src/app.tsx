@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Provider } from 'react-redux';
+import store from "./store/store";
 import FirstComponent from "./components/firstComponent";
 //import { ReduxComponent } from "./components/reduxComponent";
 import SecondComponent from "./components/secondComponent";
 import { Card } from "./components/card";
 import { Clock } from "./components/clock";
-import store from "./store/store";
 
 export class App extends React.Component {
     render() {
